@@ -1,0 +1,201 @@
+@media screen and (max-width:1200px) {
+    .img-m1,.img-m2,.img-m4,.bg-color{
+      display: none;
+              }
+    .header-letter 
+        {
+          width:550px;
+          margin-top:40px;         
+        }  
+        .header-1 
+        {
+         padding-right:320px;
+         font-size:25px;         
+        }      
+       .header-2 
+       {    
+            font-size:20px;
+            padding-right:80px;
+         }  
+         .img-m3  
+         {          
+           right:110px; 
+           top:90px;          
+           } 
+     
+       .Header-2-letter
+     {
+       display: flex;
+       flex-wrap: wrap;
+       width:800px;
+     }  
+     .Header-box
+       {
+         flex-wrap: wrap;            
+        }   
+        .h2 
+        {
+          padding-right:30px;          
+        }      
+   }
+
+   @media screen and (max-width:992px) {
+    .menu { 
+      display:none;
+      text-align:left;
+      position:relative;
+      right:240px;
+      padding:16px 0;
+      margin-top:35px;         
+      
+    }
+     .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      border-radius:5px;
+      transition: 0.3s ease;
+       } 
+        
+     .menu li + li {
+      margin-top:12px;    
+     }
+     input[type=checkbox]:checked ~ .menu{
+      display:block;      
+     }
+      .hamburger {
+      display:flex;
+     }
+     .header-btn
+          {
+            display: none;
+          }
+      .img-m3  
+          {          
+            display: none;         
+            } 
+     .header-letter 
+            {
+              width:460px;
+              margin-top:40px;         
+            }     
+     .header-1 
+            {
+             padding-right:270px;                    
+            }      
+     .header-2 
+           {    
+              padding-right:20px;              
+             }
+     .Header-2-letter
+             {
+               display: flex;
+               flex-wrap:wrap;
+               width:600px;
+             }      
+             .h2 
+        {
+          padding-right:10px;          
+        }    
+        
+        .container 
+       {
+          margin-left:20px;           
+       }
+       .header-2-container
+     {      
+      padding-left:20px;
+      padding-top: 20px;
+      padding-bottom: 20px;         
+     }
+     .header-3
+           {
+            margin-left:20px;
+            margin-right:20px;
+            padding-top: 20px;           
+           } 
+           .final-navgation,.nav-end 
+            {
+              display: none;
+            }
+        
+   }
+
+   @media screen and (max-width:768px) {
+    
+      .hamburger
+         {
+           top:10px;              
+         } 
+         .header-letter 
+            {
+              width:360px;
+              margin-top:40px;         
+            } 
+        .header-1 
+            {
+             padding-right:140px;                    
+            }      
+        .header-2 
+           {    
+              padding-right:20px;              
+             } 
+       .Header-2-letter
+     {
+       display: flex;
+       flex-wrap: wrap;
+       width:400px;
+     }        
+
+   }
+
+   @media screen and (max-width:576px) {
+        
+    .container 
+       {
+          margin-left:20px;          
+       } 
+       .menu
+           { 
+           right:140px;       
+           }   
+       .hamburger
+       {
+         right:30px;              
+       }    
+    .header-1 
+    {
+     padding-right:90px;
+     font-size:20px;         
+    }      
+   .header-2 
+   {    
+        font-size:18px;
+        padding-right:5px;
+     } 
+     .header-letter 
+     {
+        width:260px;
+               
+     }  
+     .Header-2-letter
+     {
+       display: flex;
+       flex-wrap: wrap;
+       width:260px;
+     } 
+     .h2 
+        {
+          padding-right:0px;          
+        }  
+        .final-btn 
+         {
+          display: none;               
+         } 
+         .footer-logo
+         {
+           position: static;
+           display: flex;
+           flex-direction: column;
+           justify-content:space-evenly;
+         }  
+   }
